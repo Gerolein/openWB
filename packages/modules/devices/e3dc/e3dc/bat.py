@@ -15,6 +15,7 @@ from modules.common.component_type import ComponentType
 
 log = logging.getLogger(__name__)
 
+## blöder kommentar
 
 def read_bat(client: modbus.ModbusTcpClient_, modbus_id: int) -> Tuple[int, int]:
     # 40082 SoC
